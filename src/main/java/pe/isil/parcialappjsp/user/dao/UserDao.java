@@ -26,6 +26,8 @@ public class UserDao {
         ps.setString(6, user.getPasswordd());
         
         rowsAffected = ps.executeUpdate();
+        
+        
         return rowsAffected;
         
     }
@@ -60,7 +62,7 @@ public class UserDao {
             
             
             if(rowsAffected>0){
-                message="Se actualizo el usuario satisfactoriamente";
+                message="Contraseña recuperada";
             }else{
                 message="Ocurrio un error";
             }         
