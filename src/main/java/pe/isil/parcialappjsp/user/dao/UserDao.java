@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import pe.isil.parcialappjsp.user.dao.mysql.MysqlConnection;
 import pe.isil.parcialappjsp.user.model.User;
 
-
+//codigo
 public class UserDao {
     public int registerUser(User user) throws Exception{
         MysqlConnection mysqConn = new MysqlConnection();
