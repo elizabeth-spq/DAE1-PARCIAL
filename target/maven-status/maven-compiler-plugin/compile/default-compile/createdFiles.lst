@@ -1,0 +1,5 @@
+pe\isil\parcialappjsp\user\dao\mysql\MysqlConnection.class
+pe\isil\parcialappjsp\user\controller\UserSesionServlet.class
+pe\isil\parcialappjsp\user\controller\UserUpdateServlet.class
+pe\isil\parcialappjsp\user\controller\UserServlet.class
+pe\isil\parcialappjsp\user\model\User.class
